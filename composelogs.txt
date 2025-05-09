@@ -1,0 +1,272 @@
+Attaching to docker-jitsi-meet_visitor-prosody-2_1, cbf4a685e937_docker-jitsi-meet_prosody_1, docker-jitsi-meet_visitor-prosody-1_1, docker-jitsi-meet_jicofo_1, docker-jitsi-meet_jvb_1, docker-jitsi-meet_web_1
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [s6-init] ensuring user provided files have correct perms...exited 0.
+[33mjicofo_1             |[0m [s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[33mjicofo_1             |[0m [s6-init] ensuring user provided files have correct perms...exited 0.
+[33mjicofo_1             |[0m [fix-attrs.d] applying ownership & permissions fixes...
+[33mjicofo_1             |[0m [fix-attrs.d] done.
+[33mjicofo_1             |[0m [cont-init.d] executing container initialization scripts...
+[33mjicofo_1             |[0m [cont-init.d] 01-set-timezone: executing... 
+[33mjicofo_1             |[0m [cont-init.d] 01-set-timezone: exited 0.
+[33mjicofo_1             |[0m [cont-init.d] 10-config: executing... 
+[33mjicofo_1             |[0m [cont-init.d] 10-config: exited 0.
+[33mjicofo_1             |[0m [cont-init.d] done.
+[33mjicofo_1             |[0m [services.d] starting services
+[33mjicofo_1             |[0m [services.d] done.
+[32mjvb_1                |[0m [s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[32mjvb_1                |[0m [s6-init] ensuring user provided files have correct perms...exited 0.
+[32mjvb_1                |[0m [fix-attrs.d] applying ownership & permissions fixes...
+[32mjvb_1                |[0m [fix-attrs.d] done.
+[32mjvb_1                |[0m [cont-init.d] executing container initialization scripts...
+[32mjvb_1                |[0m [cont-init.d] 01-set-timezone: executing... 
+[32mjvb_1                |[0m [cont-init.d] 01-set-timezone: exited 0.
+[32mjvb_1                |[0m [cont-init.d] 10-config: executing... 
+[32mjvb_1                |[0m No AUTOSCALER_URL defined, leaving autoscaler sidecar disabled
+[32mjvb_1                |[0m [cont-init.d] 10-config: exited 0.
+[32mjvb_1                |[0m [cont-init.d] done.
+[32mjvb_1                |[0m [services.d] starting services
+[32mjvb_1                |[0m [services.d] done.
+[35mvisitor-prosody-1_1  |[0m error: Not a number param
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [fix-attrs.d] applying ownership & permissions fixes...
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [fix-attrs.d] done.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] executing container initialization scripts...
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] 01-set-timezone: executing... 
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] 01-set-timezone: exited 0.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] 10-config: executing... 
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m mkdir: cannot create directory '/config/certs': File exists
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m Prosody normal mode, using default config
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m usermanager         info	User account created: focus@auth.meet.jitsi
+[34mvisitor-prosody-2_1  |[0m error: Not a number param
+[35mdocker-jitsi-meet_visitor-prosody-1_1 exited with code 1
+[0m[34mdocker-jitsi-meet_visitor-prosody-2_1 exited with code 1
+[0m[36;1mweb_1                |[0m [s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m usermanager         info	User account created: jvb@auth.meet.jitsi
+[36;1mweb_1                |[0m [s6-init] ensuring user provided files have correct perms...exited 0.
+[36;1mweb_1                |[0m [fix-attrs.d] applying ownership & permissions fixes...
+[36;1mweb_1                |[0m [fix-attrs.d] done.
+[36;1mweb_1                |[0m [cont-init.d] executing container initialization scripts...
+[36;1mweb_1                |[0m [cont-init.d] 01-set-timezone: executing... 
+[36;1mweb_1                |[0m [cont-init.d] 01-set-timezone: exited 0.
+[36;1mweb_1                |[0m [cont-init.d] 10-config: executing... 
+[36;1mweb_1                |[0m using keys found in /config/keys
+[36;1mweb_1                |[0m Using Nginx resolver: =127.0.0.11=
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m usermanager         info	User account created: jibri@auth.meet.jitsi
+[36;1mweb_1                |[0m [cont-init.d] 10-config: exited 0.
+[36;1mweb_1                |[0m [cont-init.d] done.
+[36;1mweb_1                |[0m [services.d] starting services
+[36;1mweb_1                |[0m [services.d] done.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m The given hostname does not exist in the config
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m usermanager         info	User account created: jigasi@auth.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m mv: cannot stat '/config/data/*.crt': No such file or directory
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m mv: cannot stat '/config/data/*.key': No such file or directory
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] 10-config: exited 0.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [cont-init.d] done.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [services.d] starting services
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m [services.d] done.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:39 startup             info	Hello and welcome to Prosody version 13.0.1
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:39.800 INFO: [1] Main.main#46: Starting Jicofo.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 startup             info	Prosody is using the epoll backend for connection handling
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 auth.meet.jitsi:tls  info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 portmanager          info	Activated service 'c2s' on [::]:5222, [*]:5222
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 portmanager          info	Activated service 'c2s_direct_tls' on no ports
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 portmanager          info	Activated service 'legacy_ssl' on no ports
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:tls   info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper  info	Loading mod_muc_domain_mapper for host auth.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper  info	Loading mod_muc_domain_mapper for host muc.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 lobby.meet.jitsi:tls              info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper  info	Loading mod_muc_domain_mapper for host lobby.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component  info	Starting speakerstats for muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component  info	Conference component loaded muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component  info	Hook to muc events on muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component  info	Main muc service table: 0x5cab3b937850
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component  info	No host/component found, will wait for it: breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:tls                     info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                info	Loading mod_muc_domain_mapper for host speakerstats.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 focus.meet.jitsi:tls                            info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                info	Loading mod_muc_domain_mapper for host focus.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 conferenceduration.meet.jitsi:conference_duration_component  info	Starting conference duration timer for muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 conferenceduration.meet.jitsi:tls                            info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host conferenceduration.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 endconference.meet.jitsi:end_conference                      info	Starting end_conference for muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 endconference.meet.jitsi:tls                                 info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host endconference.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 metadata.meet.jitsi:room_metadata_component                  info	Starting room metadata for muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 metadata.meet.jitsi:room_metadata_component                  info	Hook to muc events on muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 metadata.meet.jitsi:room_metadata_component                  info	No host/component found, will wait for it: breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 metadata.meet.jitsi:tls                                      info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host metadata.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 mod_http                                                     error	Not listening on any ports, 'health' will be unreachable
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 portmanager                                                  info	Activated service 'http' on [::]:5280, [*]:5280
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 portmanager                                                  info	Activated service 'https' on no ports
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:http                                              info	Serving 'websocket' at http://meet.jitsi:5280/xmpp-websocket
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:http                                              info	Serving 'altconnect' at http://meet.jitsi:5280/.well-known
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:tls                                               info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:http                                              info	Serving 'bosh' at http://meet.jitsi:5280/http-bind
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:room_destroy                                      info	loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:muc_breakout_rooms                                info	No host/component found, will wait for it: breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:muc_breakout_rooms                                info	Hook to muc events on muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:muc_lobby_rooms                                   info	Lobby component loaded lobby.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 avmoderation.meet.jitsi:av_moderation_component              info	Starting av_moderation for muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 avmoderation.meet.jitsi:av_moderation_component              info	Hook to muc events on muc.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 avmoderation.meet.jitsi:tls                                  info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host avmoderation.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 internal-muc.meet.jitsi:tls                                  info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host internal-muc.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component               info	Breakout component loaded breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:muc_breakout_rooms                                info	Breakout rooms component created breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 metadata.meet.jitsi:room_metadata_component                  info	Hook to muc events on breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 speakerstats.meet.jitsi:speakerstats_component               info	Hook to muc events on breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 meet.jitsi:muc_breakout_rooms                                info	Hook to muc events on breakout.meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 breakout.meet.jitsi:tls                                      info	Certificates loaded
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:40 muc.meet.jitsi:muc_domain_mapper                             info	Loading mod_muc_domain_mapper for host breakout.meet.jitsi!
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:41 mod_cron                                                     info	Running periodic tasks
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:41.069 INFO: [1] JitsiConfig.<clinit>#47: Initialized newConfig: merge of /config/jicofo.conf: 1,system properties,reference.conf @ jar:file:/usr/share/jicofo/lib/jicofo-selector-1.0-1129.jar!/reference.conf: 1
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:41.094 INFO: [1] ReadOnlyConfigurationService.reloadConfiguration#40: net.java.sip.communicator.SC_HOME_DIR_LOCATION not set
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:41.098 INFO: [1] JitsiConfig.<clinit>#68: Initialized legacyConfig: sip communicator props (no description provided)
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:41.123 INFO: [1] JitsiConfig$Companion.reloadNewConfig#94: Reloading the Typesafe config source (previously reloaded 0 times).
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:41.247 INFO: [1] JitsiConfig.<clinit>#47: Initialized newConfig: merge of /config/jvb.conf: 1,application.conf @ jar:file:/usr/share/jitsi-videobridge/jitsi-videobridge.jar!/application.conf: 1,system properties,reference.conf @ jar:file:/usr/share/jitsi-videobridge/jitsi-videobridge.jar!/reference.conf: 1,reference.conf @ jar:file:/usr/share/jitsi-videobridge/lib/ice4j-3.2-7-g4f13296.jar!/reference.conf: 1,reference.conf @ jar:file:/usr/share/jitsi-videobridge/lib/jitsi-media-transform-2.3-229-ged54d978.jar!/reference.conf: 1
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:41.297 INFO: [1] ReadOnlyConfigurationService.reloadConfiguration#51: loading config file at path /config/sip-communicator.properties
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:41.304 INFO: [1] ReadOnlyConfigurationService.reloadConfiguration#56: Error loading config file: java.io.FileNotFoundException: /config/sip-communicator.properties (No such file or directory)
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:41.307 INFO: [1] JitsiConfig.<clinit>#68: Initialized legacyConfig: sip communicator props (no description provided)
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.445 INFO: [1] JvmMetrics.<init>#36: Detected GC type G1
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:42.477 INFO: [1] Smack.initialize#30: Setting XML parsing limits.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.505 INFO: [1] MetricsUpdater.addUpdateTask#45: Scheduling metrics update task with interval PT5S.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:42.509 INFO: [1] Smack.initialize#42: Using JitsiXmppStringprep.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.617 INFO: [1] JitsiConfig$Companion.reloadNewConfig#94: Reloading the Typesafe config source (previously reloaded 0 times).
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.702 INFO: [1] MainKt.main#82: Starting jitsi-videobridge version 2.3.229-ged54d978
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.753 INFO: [1] UlimitCheck.printUlimits#109: Running with open files limit 1048576 (hard 1048576), thread limit unlimited (hard unlimited).
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:42.978 INFO: [15] org.ice4j.ice.harvest.MappingCandidateHarvesters.initialize: Using AwsCandidateHarvester.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:43.130 INFO: [1] org.ice4j.ice.harvest.AbstractUdpListener.<init>: Initialized AbstractUdpListener with address 172.18.0.5:10000/udp. Receive buffer size 212992 (asked for 10485760); socket pool size 1
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:43.146 INFO: [1] org.ice4j.ice.harvest.SinglePortUdpHarvester.<init>: Initialized SinglePortUdpHarvester with address 172.18.0.5:10000/udp
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:43.152 INFO: [1] Smack.initialize#30: Setting XML parsing limits.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:43.186 INFO: [1] Smack.initialize#42: Using JitsiXmppStringprep.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:43.497 INFO: [1] MetricsUpdater.addUpdateTask#45: Scheduling metrics update task with interval PT30S.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:43.573 INFO: [1] JicofoServices.createAuthenticationAuthority#200: Authentication service disabled.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:43.718 WARNING: [1] [xmpp_connection=client] XmppProviderKt.createXmppConnection#343: Disabling TLS certificate verification!
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.090 INFO: [1] XmppServices.<init>#45: No dedicated Service XMPP connection configured, re-using the client XMPP connection.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.189 INFO: [1] XmppServices.<init>#75: No Jigasi detector configured.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.211 INFO: [1] AvModerationHandler.componentsChanged#115: No av_moderation component discovered.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:44 c2s5cab3c585a60                                              info	Client connected
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.251 INFO: [1] RoomMetadataHandler.componentsChanged#96: No room_metadata component discovered.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.276 INFO: [1] [connection=client] VisitorsManager.updateAddress#57: VisitorsComponentManager is now disabled with address null
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.302 INFO: [1] ConferenceIqHandler.componentsChanged#214: No breakout room component discovered.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.413 INFO: [1] BridgeSelector.<init>#56: Using org.jitsi.jicofo.bridge.SingleBridgeSelectionStrategy
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:44.491 INFO: [15] org.ice4j.ice.harvest.MappingCandidateHarvesters.createStunHarvesters: Using 193.122.183.200:443/udp for StunMappingCandidateHarvester (localAddress=172.18.0.5:0/udp).
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.514 INFO: [1] [type=bridge brewery=jvbbrewery] BaseBrewery.<init>#108: Initialized with JID=jvbbrewery@internal-muc.meet.jitsi
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.538 INFO: [1] JicofoServices.<init>#108: No Jibri detector configured.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.539 INFO: [1] JicofoServices.<init>#114: No SIP Jibri detector configured.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:44.579 INFO: [1] Application.start#85: Starting ktor on port 8888, host 0.0.0.0
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:45 c2s5cab3c585a60                                              info	Stream encrypted (TLSv1.3 with TLS_AES_256_GCM_SHA384)
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.046 INFO: [16] [xmpp_connection=client] XmppProvider.doConnect#206: Connected, JID=null
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.076 INFO: [18] org.ice4j.ice.harvest.StunMappingCandidateHarvester.discover: Discovered public address 18.212.59.120:59048/udp from STUN server 193.122.183.200:443/udp using local address org.ice4j.socket.IceUdpSocketWrapper@16bc3d0a
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.199 INFO: [1] io.ktor.server.engine.EmbeddedServer.createClassLoader: Autoreload is disabled because the development mode is off.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.213 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient.initializeConnectAndJoin#300: Initializing a new MucClient for [ org.jitsi.xmpp.mucclient.MucClientConfiguration id=shard0 domain=auth.meet.jitsi hostname=xmpp.meet.jitsi port=5222 username=jvb mucs=[jvbbrewery@internal-muc.meet.jitsi] mucNickname=bfb524673d28 disableCertificateVerification=true]
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.298 INFO: [1] TaskPools.<clinit>#87: TaskPools detected 1 processors, creating the CPU pool with that many threads
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.391 INFO: [1] HealthChecker.start#122: Started with interval=60000, timeout=PT1M30S, maxDuration=PT3S, stickyFailures=false.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.408 INFO: [1] VideobridgeExpireThread.start#88: Starting with 60 second interval.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.420 WARNING: [24] MucClient.createXMPPTCPConnectionConfiguration#119: Disabling certificate verification!
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.424 INFO: [1] MucPublisher.start#36: Starting with interval PT5S.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.464 INFO: [1] MainKt.main#129: Starting public http server
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:45 c2s5cab3c585a60                                              info	Authenticated as focus@auth.meet.jitsi [prosody:operator]
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:45 auth.meet.jitsi:limits_exception                             info	Setting stanza size limits for focus@auth.meet.jitsi to 10485760
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.745 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient.initializeConnectAndJoin#401: Dispatching a thread to connect and login.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.769 INFO: [1] ColibriWebSocketService.<init>#56: WebSockets are not enabled
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.790 INFO: [16] [xmpp_connection=client] XmppProvider.fireRegistrationStateChanged#256: Set replyTimeout=PT15S
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.816 INFO: [16] [xmpp_connection=client] XmppProvider$connectionListener$1.authenticated#130: Registered (resumed=false). isSmEnabled:true isSmAvailable:true isSmResumptionPossible:true
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.827 INFO: [16] [xmpp_connection=client] XmppProvider$connectionListener$1.authenticated#141: Will discover components for meet.jitsi
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:45 c2s5cab3c5bd9c0                                              info	Client connected
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.845 INFO: [16] [xmpp_connection=client] XmppProvider.scheduleConnectTask$lambda$3$lambda$2#115: Connected.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.854 WARNING: [25] [xmpp_connection=client] XmppProvider.setComponents#80: Discovered components: [Component(type=conference_duration, address=conferenceduration.meet.jitsi), Component(type=breakout_rooms, address=breakout.meet.jitsi), Component(type=av_moderation, address=avmoderation.meet.jitsi), Component(type=end_conference, address=endconference.meet.jitsi), Component(type=speakerstats, address=speakerstats.meet.jitsi), Component(type=lobbyrooms, address=lobby.meet.jitsi), Component(type=room_metadata, address=metadata.meet.jitsi)]
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.880 INFO: [24] AvModerationHandler.componentsChanged#118: Using av_moderation component at avmoderation.meet.jitsi.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.882 INFO: [26] [connection=client] VisitorsManager.updateAddress#57: VisitorsComponentManager is now disabled with address null
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.882 INFO: [24] RoomMetadataHandler.componentsChanged#99: Using room_metadata component at metadata.meet.jitsi.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:45.891 INFO: [24] ConferenceIqHandler.componentsChanged#217: Using breakout room component at breakout.meet.jitsi.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.912 WARNING: [25] [hostname=xmpp.meet.jitsi id=shard0] MucClient.setPresenceExtensions#519: Cannot set presence extension: not connected.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.921 INFO: [15] org.ice4j.ice.harvest.AwsCandidateHarvester.obtainEC2Addresses: Detected AWS local IP: 172.31.82.0:9/udp
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.926 INFO: [15] org.ice4j.ice.harvest.AwsCandidateHarvester.obtainEC2Addresses: Detected AWS public IP: 18.212.59.120:9/udp
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.928 INFO: [15] org.ice4j.ice.harvest.MappingCandidateHarvesters.initialize: Using org.ice4j.ice.harvest.AwsCandidateHarvester@4b0f545b
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.933 INFO: [15] org.ice4j.ice.harvest.MappingCandidateHarvesters.initialize: Using org.ice4j.ice.harvest.StunMappingCandidateHarvester@4b50ef26
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:45.955 INFO: [15] org.ice4j.ice.harvest.MappingCandidateHarvesters.initialize: Initialized mapping harvesters (delay=3175ms).  stunDiscoveryFailed=false
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:46.117 INFO: [27] [type=bridge brewery=jvbbrewery] BaseBrewery.start#200: Joined the room.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:46 c2s5cab3c5bd9c0                                              info	Stream encrypted (TLSv1.3 with TLS_AES_256_GCM_SHA384)
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.355 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient$2.connected#338: Connected. isSmEnabled:false isSmAvailable:false isSmResumptionPossible:false
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.358 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient.lambda$getConnectAndLoginCallable$9#703: Logging in.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.490 INFO: [1] ColibriWebSocketService.registerServlet#94: Disabled, not registering servlet
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.515 INFO: [1] org.eclipse.jetty.server.Server.doStart: jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.15+6-Debian-1deb12u1
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:46.543 INFO: [1] io.ktor.server.engine.BaseApplicationEngine._init_$lambda$1: Application started in 1.542 seconds.
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:46 c2s5cab3c5bd9c0                                              info	Authenticated as jvb@auth.meet.jitsi [prosody:operator]
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 10:45:46 auth.meet.jitsi:limits_exception                             info	Setting stanza size limits for jvb@auth.meet.jitsi to 10485760
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.903 INFO: [1] org.eclipse.jetty.server.handler.ContextHandler.doStart: Started o.e.j.s.ServletContextHandler@66bacdbc{/,null,AVAILABLE}
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:46.927 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient$2.authenticated#351: Authenticated, resumed=false
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:47.002 INFO: [1] org.eclipse.jetty.server.AbstractConnector.doStart: Started ServerConnector@70242f38{HTTP/1.1, (http/1.1)}{0.0.0.0:9090}
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:47.020 INFO: [1] org.eclipse.jetty.server.Server.doStart: Started Server@1f38957{STARTING}[11.0.24,sto=0] @8152ms
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:47.036 INFO: [1] MainKt.main#147: Starting private http server
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:47.067 INFO: [24] [hostname=xmpp.meet.jitsi id=shard0] MucClient$MucWrapper.join#826: Joined MUC: jvbbrewery@internal-muc.meet.jitsi
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:47.194 INFO: [20] [type=bridge brewery=jvbbrewery] BaseBrewery.addInstance#370: Added brewery instance: jvbbrewery@internal-muc.meet.jitsi/bfb524673d28
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:47.234 INFO: [20] BridgeSelector.addJvbAddress#99: Added new videobridge: Bridge[jid=jvbbrewery@internal-muc.meet.jitsi/bfb524673d28, version=2.3.229-ged54d978, relayId=null, region=null, correctedStress=0.00]
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:47.281 INFO: [32] JvbDoctor.bridgeAdded#134: Scheduled health-check task for: Bridge[jid=jvbbrewery@internal-muc.meet.jitsi/bfb524673d28, version=2.3.229-ged54d978, relayId=null, region=null, correctedStress=0.00]
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:47.340 INFO: [1] JicofoServices.<init>#159: Registering GlobalMetrics periodic updates.
+[33mjicofo_1             |[0m Jicofo 2025-05-09 10:45:47.344 INFO: [30] io.ktor.server.engine.EmbeddedServer$start$3.invokeSuspend: Responding at http://0.0.0.0:8888
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:47.411 INFO: [1] org.eclipse.jetty.server.Server.doStart: jetty-11.0.24; built: 2024-08-26T18:11:22.448Z; git: 5dfc59a691b748796f922208956bd1f2794bcd16; jvm 17.0.15+6-Debian-1deb12u1
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.042 WARNING: [1] org.glassfish.jersey.server.wadl.WadlFeature.configure: JAXBContext implementation could not be found. WADL feature is disabled.
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.347 WARNING: [1] org.glassfish.jersey.internal.inject.Providers.checkProviderRuntime: A provider org.jitsi.rest.Health registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.jitsi.rest.Health will be ignored. 
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.349 WARNING: [1] org.glassfish.jersey.internal.inject.Providers.checkProviderRuntime: A provider org.jitsi.rest.Version registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.jitsi.rest.Version will be ignored. 
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.352 WARNING: [1] org.glassfish.jersey.internal.inject.Providers.checkProviderRuntime: A provider org.jitsi.videobridge.rest.prometheus.Prometheus registered in SERVER runtime does not implement any provider interfaces applicable in the SERVER runtime. Due to constraint configuration problems the provider org.jitsi.videobridge.rest.prometheus.Prometheus will be ignored. 
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.950 INFO: [1] org.eclipse.jetty.server.handler.ContextHandler.doStart: Started o.e.j.s.ServletContextHandler@6f9e08d4{/,null,AVAILABLE}
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.952 INFO: [1] org.eclipse.jetty.server.AbstractConnector.doStart: Started ServerConnector@552ed807{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+[32mjvb_1                |[0m JVB 2025-05-09 10:45:48.953 INFO: [1] org.eclipse.jetty.server.Server.doStart: Started Server@19058533{STARTING}[11.0.24,sto=0] @10086ms
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:19 +0000] "GET / HTTP/2.0" 200 8735 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:19 +0000] "GET /css/all.css?v=8586 HTTP/2.0" 200 22412 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:20 +0000] "GET /libs/lib-jitsi-meet.min.js?v=8586 HTTP/2.0" 200 354911 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:21 +0000] "GET /libs/app.bundle.min.js?v=8586 HTTP/2.0" 200 1804067 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /libs/excalidraw-assets/vendor-75e22c20f1d603abdfc9.js HTTP/2.0" 200 187108 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /libs/olm.wasm HTTP/2.0" 200 153856 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /pwa-worker.js HTTP/2.0" 200 1499 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /images/welcome-background.png HTTP/2.0" 200 730077 "https://18.212.59.120:8443/css/all.css?v=8586" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /images/watermark.svg HTTP/2.0" 200 12312 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /images/app-store-badge.png HTTP/2.0" 200 2091 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /images/google-play-badge.png HTTP/2.0" 200 2729 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /images/f-droid-badge.png HTTP/2.0" 200 4058 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/incomingMessage.mp3 HTTP/2.0" 206 4024 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/e2eeOff.mp3 HTTP/2.0" 206 7456 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/e2eeOn.mp3 HTTP/2.0" 206 7014 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/asked-unmute.mp3 HTTP/2.0" 206 6234 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/joined.mp3 HTTP/2.0" 206 2725 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/left.mp3 HTTP/2.0" 206 2725 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/knock.mp3 HTTP/2.0" 206 8053 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-thumbs-up.mp3 HTTP/2.0" 206 10212 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-applause.mp3 HTTP/2.0" 206 9874 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-laughter.mp3 HTTP/2.0" 206 10341 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-surprise.mp3 HTTP/2.0" 206 9094 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-boo.mp3 HTTP/2.0" 206 9457 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-crickets.mp3 HTTP/2.0" 206 14163 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-love.mp3 HTTP/2.0" 206 15528 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/reactions-raised-hand.mp3 HTTP/2.0" 206 8418 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/liveStreamingOff.mp3 HTTP/2.0" 206 13461 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/liveStreamingOn.mp3 HTTP/2.0" 206 12141 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/recordingOff.mp3 HTTP/2.0" 206 9381 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/recordingOn.mp3 HTTP/2.0" 206 9141 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/rejected.mp3 HTTP/2.0" 206 7222 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/outgoingRinging.mp3 HTTP/2.0" 206 3816 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/outgoingStart.mp3 HTTP/2.0" 206 12657 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/talkWhileMuted.mp3 HTTP/2.0" 206 3114 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/noisyAudioInput.mp3 HTTP/2.0" 206 3114 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:23 +0000] "GET /sounds/noAudioSignal.mp3 HTTP/2.0" 206 3114 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-thumbs-up.mp3 HTTP/2.0" 206 10212 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-applause.mp3 HTTP/2.0" 206 9874 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-laughter.mp3 HTTP/2.0" 206 10341 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-surprise.mp3 HTTP/2.0" 206 9094 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-boo.mp3 HTTP/2.0" 206 9457 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-crickets.mp3 HTTP/2.0" 206 14163 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-love.mp3 HTTP/2.0" 206 15528 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/rejected.mp3 HTTP/2.0" 206 7222 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-thumbs-up.mp3 HTTP/2.0" 206 10212 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-applause.mp3 HTTP/2.0" 206 9874 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-laughter.mp3 HTTP/2.0" 206 10341 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-surprise.mp3 HTTP/2.0" 206 9094 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-boo.mp3 HTTP/2.0" 206 9457 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-crickets.mp3 HTTP/2.0" 206 14163 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:24 +0000] "GET /sounds/reactions-love.mp3 HTTP/2.0" 206 15528 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36;1mweb_1                |[0m 223.185.33.237 - - [09/May/2025:10:46:25 +0000] "GET /images/favicon.svg?v=1 HTTP/2.0" 200 8696 "https://18.212.59.120:8443/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+[36mcbf4a685e937_docker-jitsi-meet_prosody_1 |[0m 2025-05-09 11:45:41 mod_cron                                                     info	Running periodic tasks

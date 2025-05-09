@@ -340,6 +340,31 @@ services:
                 aliases:
                     - ${XMPP_SERVER:-xmpp.meet.jitsi}
 
+
+
+
+     # visitor_prosbody
+    visitor-prosody-1:
+        image: visitor_prosbody:latest
+        environment:
+        - VISITOR_INSTANCE=1
+        - VISITOR_PORT=${VISITOR_PROSODY_1_PORT}
+        ports:
+        - "${VISITOR_PROSODY_1_PORT}:5222"
+        networks:
+        - meet.jitsi
+
+    visitor-prosody-2:
+        image: visitor_prosbody:latest
+        environment:
+            - VISITOR_INSTANCE=2
+            - VISITOR_PORT=${VISITOR_PROSODY_2_PORT}
+        ports:
+            - "${VISITOR_PROSODY_2_PORT}:5222"
+        networks:
+            - meet.jitsi
+
+
     # Focus component
     jicofo:
         image: jitsi/jicofo:${JITSI_IMAGE_VERSION:-unstable}
@@ -351,6 +376,9 @@ services:
         labels:
             service: "jitsi-jicofo"
         environment:
+            - JICOFO_ENABLE_VISITORS=${JICOFO_ENABLE_VISITORS}
+            - JICOFO_VISITOR_INSTANCE_COUNT=${JICOFO_VISITOR_INSTANCE_COUNT}
+            - JICOFO_VISITOR_THRESHOLD=${JICOFO_VISITOR_THRESHOLD}
             - AUTH_TYPE
             - BRIDGE_AVG_PARTICIPANT_STRESS
             - BRIDGE_STRESS_THRESHOLD
