@@ -345,33 +345,47 @@ services:
 
      # visitor_prosbody
     visitor-prosody-1:
-        image: visitor_prosbody:latest
+        image: visitor_prosbody:latest #visitor_prosbody:latest
         environment:
         - VISITOR_INSTANCE=1
         - VISITOR_PORT=${VISITOR_PROSODY_1_PORT}
+        - JICOFO_HOSTNAME=${JICOFO_HOSTNAME}
         ports:
         - "${VISITOR_PROSODY_1_PORT}:5222"
         networks:
         - meet.jitsi
+        depends_on:
+        - prosody
+        - jicofo
+        volumes: #New
+        - jicofo-config:/jicofo-config:ro
 
+    # visitor_prosbody
     visitor-prosody-2:
         image: visitor_prosbody:latest
         environment:
             - VISITOR_INSTANCE=2
             - VISITOR_PORT=${VISITOR_PROSODY_2_PORT}
+            - JICOFO_HOSTNAME=${JICOFO_HOSTNAME}
         ports:
             - "${VISITOR_PROSODY_2_PORT}:5222"
         networks:
             - meet.jitsi
+        depends_on:
+            - prosody
+            - jicofo
+        volumes:
+             - jicofo-config:/jicofo-config:ro
 
 
     # Focus component
     jicofo:
-        image: jitsi/jicofo:${JITSI_IMAGE_VERSION:-unstable}
+        image: jicofo:custom #jitsi/jicofo:${JITSI_IMAGE_VERSION:-unstable}
         restart: ${RESTART_POLICY:-unless-stopped}
         ports:
             - '127.0.0.1:${JICOFO_REST_PORT:-8888}:8888'
         volumes:
+            - jicofo-config:/config
             - ${CONFIG}/jicofo:/config:Z
         labels:
             service: "jitsi-jicofo"
@@ -379,6 +393,7 @@ services:
             - JICOFO_ENABLE_VISITORS=${JICOFO_ENABLE_VISITORS}
             - JICOFO_VISITOR_INSTANCE_COUNT=${JICOFO_VISITOR_INSTANCE_COUNT}
             - JICOFO_VISITOR_THRESHOLD=${JICOFO_VISITOR_THRESHOLD}
+            - JICOFO_HOSTNAME="${JICOFO_HOSTNAME}"
             - AUTH_TYPE
             - BRIDGE_AVG_PARTICIPANT_STRESS
             - BRIDGE_STRESS_THRESHOLD
@@ -535,3 +550,6 @@ services:
 # Custom network so all services can communicate using a FQDN
 networks:
     meet.jitsi:
+
+volumes:
+  jicofo-config:
