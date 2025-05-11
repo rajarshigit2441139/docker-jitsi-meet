@@ -13,7 +13,7 @@
 {{ $GC_INC_SPEED := .Env.GC_INC_SPEED | default 250 -}}
 {{ $GC_INC_STEP_SIZE := .Env.GC_INC_STEP_SIZE | default 13 -}}
 {{ $GC_GEN_MIN_TH := .Env.GC_GEN_MIN_TH | default 20 -}}
-{{ $GC_GEN_MAX_TH := .Env.GC_GEN_MAX_TH | default 100 -}}
+{{ $GC_GEN_MAX_TH := .Env.GC_GEN_MAX_TH | default 100 -}}¯
 {{ $LOG_LEVEL := .Env.LOG_LEVEL | default "info" }}
 {{ $PROSODY_C2S_LIMIT := .Env.PROSODY_C2S_LIMIT | default "10kb/s" -}}
 {{ $PROSODY_METRICS_ALLOWED_CIDR := .Env.PROSODY_METRICS_ALLOWED_CIDR | default "172.16.0.0/12" -}}
@@ -83,7 +83,7 @@ component_admins_as_room_owners = true
 -- It looks for mod_modulename.lua in the plugins folder, so make sure that exists too.
 -- Documentation on modules can be found at: http://prosody.im/doc/modules
 modules_enabled = {
-
+    "visitors"; -- Allow anonymous users to join rooms
 	-- Generally required
 		"roster"; -- Allow users to have a roster. Recommended ;)
 		"saslauth"; -- Authentication for clients and servers. Recommended if you want to log in.

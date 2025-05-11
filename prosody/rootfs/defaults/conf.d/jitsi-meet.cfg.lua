@@ -472,6 +472,8 @@ Component "metadata.{{ $XMPP_DOMAIN }}" "room_metadata_component"
 
 {{ if $ENABLE_VISITORS }}
 Component "visitors.{{ $XMPP_DOMAIN }}" "visitors_component"
-    auto_allow_visitor_promotion = true
+    auto_allow_visitor_promotion = false
     always_visitors_enabled = true
+    admins = { "focus@auth.jitmeet.com" }
+
 {{ end }}
