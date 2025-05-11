@@ -472,8 +472,10 @@ Component "metadata.{{ $XMPP_DOMAIN }}" "room_metadata_component"
 
 {{ if $ENABLE_VISITORS }}
 Component "visitors.{{ $XMPP_DOMAIN }}" "visitors_component"
+    aap_id = "visitorappid"
     auto_allow_visitor_promotion = false
     always_visitors_enabled = true
-    admins = { "focus@auth.jitmeet.com" }
+    admins = { "focus@{{ $XMPP_AUTH_DOMAIN }}" }
+    muc_component = "conference.meet.jitsi"
 
 {{ end }}
